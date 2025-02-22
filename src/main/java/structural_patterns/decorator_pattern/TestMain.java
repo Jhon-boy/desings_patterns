@@ -10,7 +10,7 @@ public class TestMain {
     public static void main(String[] args) {
         // Example 1: Decorator Pattern with Encryption, Compression, and File IO
         System.out.println("\n ************ EXAMPLE 1 ****************\n");
-        /*String salaryRecords = "Name,Salary\nJOHN WITES,1000\nSTEVE JOBS,9202154";
+        String salaryRecords = "Name,Salary\nJOHN WITES,1000\nSTEVE JOBS,9202154";
         DataSourceDecorator encoded = new CompressionDecorator(
                 new EncryptionDecorator(
                         new FileDataSource("out/testMain.txt")
@@ -24,7 +24,7 @@ public class TestMain {
         System.out.println("- Encoded --------------");
         System.out.println(plain.readData());
         System.out.println("- Decoded --------------");
-        System.out.println(encoded.readData());*/
+        System.out.println(encoded.readData());
 
         //Example 2: Notification
         System.out.println("\n ************ EXAMPLE 2 ****************\n");
